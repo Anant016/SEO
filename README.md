@@ -22,31 +22,54 @@ https://instant.page/
 
 ### - Google Search console
 
+<hr/>
 ### - XML Sitemap
 https://www.xml-sitemaps.com/
 
+<hr/>
 ### - Web App Manifest (manifest.json)
 https://web.dev/add-manifest/
 
+<hr/>
 ### - Lighthouse
 https://developers.google.com/web/tools/lighthouse/
 https://developers.google.com/speed/pagespeed/insights/
 
+### Robots.txt
+```
+#Rule 1
+User-agent: Googlebot
+Disallow:
+
+#Rule2
+User-agent: Bingbot
+Disallow:
+
+Sitemap: https://abc.com/sitemap.xml
+```
+
+<hr/>
 ### - Schema.org
 https://schema.org/docs/gs.html
 
+<hr/>
 ### Mobile Friendly Test
 https://search.google.com/test/mobile-friendly?view=fetch-info&id=1a8fsE-phsiwXGWOKKPPpw
 
+<hr/>
 ### - Cache control
 
+<hr/>
 ### - Compress Resources
 
+<hr/>
 ### - Google Ads
 
+<hr/>
 ### - Google Analytics
 
-### -
+<hr/>
+### - Object to Json
 data={"name":"Anant"}
 to render, data is first loaded, parsed,comiled and executed by Javascript engine
 How to solve?
