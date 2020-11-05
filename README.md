@@ -30,9 +30,13 @@ https://web.dev/add-manifest/
 
 ### - Lighthouse
 https://developers.google.com/web/tools/lighthouse/
+https://developers.google.com/speed/pagespeed/insights/
 
 ### - Schema.org
 https://schema.org/docs/gs.html
+
+### Mobile Friendly Test
+https://search.google.com/test/mobile-friendly?view=fetch-info&id=1a8fsE-phsiwXGWOKKPPpw
 
 ### - Cache control
 
@@ -49,7 +53,8 @@ How to solve?
 1. SSR
 2. data = JSON.parse('{"name": "Anant"}') - faster (only one token, less checks, around 2x fast)
 
-Don't do it by hand, Using Webpack or babel plugins
+Don't do it by hand, Using Webpack or babel plugins - <br/>
+https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 ## Specially for React
 
