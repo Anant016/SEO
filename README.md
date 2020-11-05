@@ -2,7 +2,7 @@
 
 <hr/>
 
-### 1. Just-in-time Preloading
+### - Just-in-time Preloading
 Hover while something is visible or even when something is hovered.
 ```
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
@@ -20,17 +20,36 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
 https://instant.page/
 <hr/>
 
-### 2. Google Search console
+### - Google Search console
 
-### 3.XML Sitemap
+### - XML Sitemap
 https://www.xml-sitemaps.com/
 
-### 4. Web App Manifest (manifest.json)
+### - Web App Manifest (manifest.json)
 https://web.dev/add-manifest/
 
-### 5. Lighthouse
+### - Lighthouse
 https://developers.google.com/web/tools/lighthouse/
 
+### - Schema.org
+https://schema.org/docs/gs.html
+
+### - Cache control
+
+### - Compress Resources
+
+### - Google Ads
+
+### - Google Analytics
+
+### -
+data={"name":"Anant"}
+to render, data is first loaded, parsed,comiled and executed by Javascript engine
+How to solve?
+1. SSR
+2. data = JSON.parse('{"name": "Anant"}') - faster (only one token, less checks, around 2x fast)
+
+Don't do it by hand, Using Webpack or babel plugins
 
 ## Specially for React
 
