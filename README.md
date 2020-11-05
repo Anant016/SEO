@@ -19,3 +19,20 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
 <br/>
 https://instant.page/
 <hr/>
+
+### 2. Google Search console
+
+### 3.XML Sitemap
+https://www.xml-sitemaps.com/
+
+### 4. Web App Manifest (manifest.json)
+https://web.dev/add-manifest/
+
+### 5. Lighthouse
+https://developers.google.com/web/tools/lighthouse/
+
+
+## Specially for React
+
+### - React Helmet 
+https://www.npmjs.com/package/react-helmet
